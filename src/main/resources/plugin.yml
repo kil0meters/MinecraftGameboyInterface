@@ -1,0 +1,6 @@
+name: MinecraftGameboyInterface
+version: ${project.version}
+main: sh.meters.minecraftgameboyinterface.MinecraftGameboyInterface
+api-version: 1.13
+authors: [kilometers]
+description: A plugin to interface with my goboy fork
