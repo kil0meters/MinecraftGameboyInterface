@@ -13,8 +13,7 @@ public final class MinecraftGameboyInterface extends JavaPlugin {
         // Plugin startup logic
         getLogger().info("Hello world");
 
-        getServer().getPluginManager().registerEvents(new DpadInputs(), this);
-        getServer().getPluginManager().registerEvents(new ButtonInputs(), this);
+        getServer().getPluginManager().registerEvents(new GBInputEventListener(), this);
     }
 
     public static void makeRequest(String apiEndpoint) {
