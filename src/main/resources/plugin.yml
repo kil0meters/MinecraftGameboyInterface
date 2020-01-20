@@ -4,3 +4,10 @@ main: sh.meters.minecraftgameboyinterface.MinecraftGameboyInterface
 api-version: 1.13
 authors: [kilometers]
 description: A plugin to interface with my goboy fork
+commands:
+  gb-group:
+    description: Adds or removes a player from the gameboy controller group
+    usage: /gb-group {add,remove} PLAYER
+  gb-controller:
+    description: Gives a gameboy controller
+    usage: /gb-controller
